@@ -33,10 +33,13 @@ HISTSIZE=500000
 HISTFILESIZE=100000
 
 # Avoid duplicate entries
-HISTCONTROL="erasedups:ignoreboth"
+HISTCONTROL="ignoreboth"
+# HISTCONTROL="erasedups:ignoreboth"
+# HISTCONTROL="ignoreboth"
+# HISTCONTROL="ignorespace"
 
 # Don't record some commands
-export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear"
+export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear:h"
 
 # Use standard ISO 8601 timestamp
 # %F equivalent to %Y-%m-%d                                                                                      
