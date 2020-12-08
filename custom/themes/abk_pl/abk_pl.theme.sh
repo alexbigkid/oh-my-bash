@@ -51,6 +51,6 @@ IN_VIM_THEME_PROMPT_TEXT="vim"
 # POWERLINE_LEFT_PROMPT=${POWERLINE_LEFT_PROMPT:="scm python_venv ruby cwd"}
 # POWERLINE_RIGHT_PROMPT=${POWERLINE_RIGHT_PROMPT:="in_vim clock battery user_info"}
 POWERLINE_LEFT_PROMPT=${POWERLINE_LEFT_PROMPT:="user_info cwd scm"}
-POWERLINE_RIGHT_PROMPT=${POWERLINE_RIGHT_PROMPT:="in_vim cmd_history clock"}
+POWERLINE_RIGHT_PROMPT=${POWERLINE_RIGHT_PROMPT:="python_venv cmd_history clock"}
 
 safe_append_prompt_command __powerline_prompt_command
